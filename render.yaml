@@ -1,0 +1,13 @@
+services:
+  - type: worker  # ← MEJOR para bots (no web)
+    name: bot-ith-bovinos
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py  # ← CORREGIDO
+    envVars:
+      - key: TOKEN
+        sync: false
+      - key: API_KEY
+        sync: false
+      - key: CIUDAD
+        sync: false

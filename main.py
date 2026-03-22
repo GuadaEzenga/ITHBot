@@ -266,7 +266,6 @@ class ITHBot:
 ⏰ *Horarios:* 10:00, 12:00, 16:00
 📱 *Comandos:*
 /estado - ITH actual
-/usuarios - Cantidad suscriptos (admin)
 
 *Sape loquitaaaaaaaaaa 🐄💨*"""
         self.enviar_mensaje(chat_id, mensaje)
